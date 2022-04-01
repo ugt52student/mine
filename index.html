@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地雷探知</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="description">
+      <b>ストーリー</b>
+      <p>村人A「先週末、この村と町をつなぐ草原から地雷が見つかったんだ。町へ出稼ぎに行けなくて困ったもんだよ。あんた、町まで安全に行ける道を探してくれないか？頼むよ」</p>
+      <p>村人B「国防軍の調査によると、この草原には100個ぐらいの地雷が埋まってるらしいぜ」</p>
+      <p><b>ルール</b> 村(#)と町($)を安全な道でつなぎましょう。地雷を踏まないように気を付けて！</p>
+      <p><b>操作</b> [矢印/wasd]...移動 [スペース]...開く [f]...マーク [r]...リセット</p>
+    </div>
+    <div class="game">
+      <canvas id="canvas" class="canvas"></canvas>
+    </div>
+    <script src="config.js"></script>
+    <script src="controler.js"></script>
+    <script src="logic.js"></script>
+    <script src="render.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

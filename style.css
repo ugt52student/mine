@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+.description {
+    margin: 16px;
+    max-width: 800px;
+}
+.game {
+    margin: 16px;
+    width: 800px;
+}
+.canvas {
+    width: 100%;
+}
